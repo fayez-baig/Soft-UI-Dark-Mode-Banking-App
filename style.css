@@ -1,0 +1,243 @@
+body {
+  width: 23%;
+  margin: 0 auto;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background-color: #26282b;
+  padding: 2px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.mar {
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  box-shadow: inset -3px -3px 7px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.bal {
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 13px;
+}
+.card-header {
+  margin-bottom: 15px;
+}
+
+.sign {
+  margin-left: 20px;
+  margin-top: 7px;
+  font-weight: 700 !important;
+}
+
+.hide {
+  font-weight: 200;
+  font-size: 10px;
+  float: right;
+  margin-right: 30px;
+}
+
+.num {
+  font-weight: 700;
+}
+
+.card-num {
+  margin: 20px 0;
+}
+
+.fab {
+  float: right;
+  margin-right: 5px;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+}
+
+.ex-date {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.cvv {
+  margin-left: 45px;
+  font-weight: 700;
+}
+
+#card {
+  padding: 15px;
+  margin-left: 18px;
+  margin-top: 15px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: -22px -5px 10px -5px rgba(0, 0, 0, 0.5),
+    22px 5px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.transaction {
+  margin-top: 40px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.rec-header {
+  margin-left: 7px;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.icon1 {
+  color: green;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.icon2 {
+  color: blue;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.icon3 {
+  color: orange;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.dollar {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.rest {
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.date {
+  float: right;
+  margin-right: 25px;
+  font-size: 12px;
+}
+
+.trans-1 {
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: -22px -5px 10px -5px rgba(0, 0, 0, 0.5),
+    22px 5px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+#footer {
+  margin-top: 80px;
+}
+
+.home {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-size: 30px;
+  box-shadow: inset -3px -3px 7px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.col {
+  color: #e75480;
+}
+.sig {
+  color: green;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.ccard {
+  padding: 10px;
+  margin: 10px;
+  color: blue;
+  font-size: 30px;
+  box-shadow: inset -3px -3px 7px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.signal {
+  padding: 10px;
+  color: green;
+  margin: 10px;
+  font-size: 30px;
+  box-shadow: inset -3px -3px 7px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.wallet {
+  color: brown;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  box-shadow: inset -3px -3px 7px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.period {
+  padding: 15px;
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: -22px -5px 10px -5px rgba(0, 0, 0, 0.5),
+    22px 5px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.last {
+  float: right;
+}
+
+.icon {
+  color: blue;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 20px solid #31343a;
+  background-image: linear-gradient(18deg, #26282b 50%, transparent 50%),
+    linear-gradient(-90deg, blue 50%, transparent 50%);
+  box-shadow: 24px 24px 48px #202225, -24px -24px 48px #2c2e31;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle::after {
+  content: " ";
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  background: #26282b;
+  border-radius: 50%;
+  background: #26282b;
+  box-shadow: 24px 24px 48px #202225, -24px -24px 48px #2c2e31;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: 315px;
+  left: 740px;
+}
